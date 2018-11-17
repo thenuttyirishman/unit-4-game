@@ -1,0 +1,64 @@
+.crystals {
+    display: flex;
+    align-items: center;
+}
+
+.crystal {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 4px;
+    transition: box-shadow 1s;
+    margin: 0px 0px 0px 20px; 
+}
+
+.crystal:hover {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 1s;
+}
+
+h1 {
+ background-color: orange;
+ font-family: 'Georgia', Times, Times New Roman, serif;
+ color: white;
+ font-weight: bolder;
+ height: 40px;
+ margin: 20px 1100px 0px 20px;
+ text-align: center ; 
+ font-size : 30px;
+ padding: 20px;
+}
+
+h2 {
+background-color:bisque;
+color: green;
+font-family: 'Georgia', Times, Times New Roman, serif;
+font-weight: bolder;
+line-height: 20px;
+height: 275px;
+margin: 10px 1000px 0px 20px; 
+padding: 10px 10px 10px 10px; 
+}
+
+h3 {
+    background-color:#00C78C ;
+    margin: 10px 1300px 10px 20px;
+    padding: 40px 0px 0px 0px; 
+    height: 100px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: purple;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+h4 {
+    background-color: aqua;
+    margin: 0px 1100px 10px 250px;
+    padding: 0px 0px 0px 50px; 
+}
+
+body {
+    background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Faux-stone-wallpaper-textured-hd-PIC-WPC0014586.jpg");
+}
+
